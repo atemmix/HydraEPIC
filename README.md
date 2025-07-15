@@ -1,20 +1,8 @@
-# Hydra Themes Repository
+# Hydra EPIC theme for Hydra Launcher
 
-This repository is used to store and share community made themes for [Hydra Launcher](https://hydralauncher.gg/pt-br). You can find these themes in the [Hydra Themes Website](https://hydrathemes.shop/).
+- Modern theme in Epic Games style.
+- Achievements support.
 
-## 👀 Documentation
+> There may be minor flaws in the theme that will be fixed in the future.
 
-To understand how to create and submit themes, please refer to the [Hydra Themes Documentation](https://docs.hydralauncher.gg/themes.html).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+![Hydra EPIC](https://github.com/atemmix/HydraEPIC/blob/HydraEPIC/themes/HydraEPIC-oylDwv2y/screenshot.png)
