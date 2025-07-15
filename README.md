@@ -1,4 +1,4 @@
-# Hydra EPIC theme for Hydra Launcher
+# HydraEPIC theme for Hydra Launcher
 
 - Modern theme in Epic Games style.
 - Achievements support.
