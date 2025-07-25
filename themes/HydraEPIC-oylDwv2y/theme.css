@@ -499,11 +499,39 @@ body {
 }
 
 .sidebar__play-button {
-  display: none;
+  margin-bottom: 20px;
+}
+
+.sidebar__play-button::after {
+  content: "All Games";
+  display: block;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  color: var(--text-primary);
+  background-color: var(--bg-card-secondary);
+  font-weight: 800;
+  border-radius: 20px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  transition: all ease 0.2s;
+}
+
+.sidebar__play-button:hover::after {
+  background-color: #1a1920;
+}
+
+.sidebar__play-button--active::after {
+  content: "Installed Games";
+  background-color: var(--bg-card-secondary);
+}
+
+.sidebar__play-button svg {
+  display: none !important;
 }
 
 .sidebar__section-header {
   justify-content: center;
+  flex-direction: column-reverse;
 }
 
 .react-loading-skeleton {
@@ -964,7 +992,7 @@ body {
 }
 
 .theme-card__author::after {
-    content: "SRV6.ru with ❤️\A\A\AThis theme uses icons from the Iconify library — Solar Icons. \ASolar Icons are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. \A\AВ этой теме используются значки из библиотеки Iconify — Solar Icons. \AЗначки Solar доступны по международной лицензии Creative Commons Attribution 4.0 (CC BY 4.0).";
+    content: "SRV6.ru with ❤️\A\AThis theme uses icons from the Iconify library — Solar Icons. \ASolar Icons are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.";
     white-space: pre;
     font-size: 14px;
     display: block;
