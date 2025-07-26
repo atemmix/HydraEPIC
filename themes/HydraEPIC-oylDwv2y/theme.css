@@ -97,6 +97,11 @@ body {
   opacity: .8;
 }
 
+.button--outline {
+  background-color: inherit;
+}
+
+
 .header__search {
   border: solid 1px rgba(255, 255, 255, 0.15);
   border-radius: 20px;
@@ -346,7 +351,6 @@ body {
 
 .sidebar__content {
   gap: 40px;
-  margin: 0 0 20px 0;
   padding: 0 20px;
 }
 
@@ -357,7 +361,7 @@ body {
 
 .sidebar__section {
   gap: 0;
-  padding-bottom: 0;
+  padding-bottom: 20px;
 }
 
 .header__back-button {
@@ -457,11 +461,18 @@ body {
   flex: none;
 }
 
+.sidebar-profile__button-game-running-title {
+  max-width: 120px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
 .sidebar-profile__button {
   color: var(--text-secondary);
   background-color: var(--bg-secondary);
   border-radius: 26px;
   height: 50px;
+  padding: 20px;
 }
 
 .sidebar-profile__button:hover {
@@ -484,10 +495,6 @@ body {
 
 .sidebar-profile .profile-avatar {
   display: none;
-}
-
-.sidebar__section:nth-of-type(2) {
-  height: 100%;
 }
 
 .sidebar__section-title {
